@@ -50,3 +50,10 @@ alembic/__pycache__/
 # Logs
 *.log
 logs/
+
+# Type checking / linting cache
+.mypy_cache/
+.ruff_cache/
+
+# Docker Compose override
+docker-compose.override.yml
