@@ -179,3 +179,14 @@ alembic downgrade -1
 ## License
 
 MIT
+
+---
+
+## Join the Discussion
+
+Have ideas or experience to share? Check out our open discussions:
+
+- [Refresh token rotation: worth the complexity?](https://github.com/shahabRDZ/fastapi-auth-service/discussions/28)
+- [Rate limiting auth endpoints](https://github.com/shahabRDZ/fastapi-auth-service/discussions/29)
+
+We'd love to hear your thoughts!
