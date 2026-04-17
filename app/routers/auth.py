@@ -7,7 +7,7 @@ from fastapi import APIRouter, HTTPException, Request, status
 from jose import JWTError
 from sqlalchemy import select
 
-from app.dependencies import CurrentUser, DbSession, get_redis
+from app.dependencies import CurrentUser, DbSession
 from app.models.user import User
 from app.schemas.user import (
     MessageResponse,
@@ -24,7 +24,6 @@ from app.services.auth import (
     hash_password,
     verify_password,
 )
-from app.config import settings
 
 router = APIRouter(prefix="/auth", tags=["Authentication"])
 

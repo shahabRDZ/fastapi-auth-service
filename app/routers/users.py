@@ -4,7 +4,7 @@ import uuid
 from typing import List
 
 from fastapi import APIRouter, HTTPException, Query, status
-from sqlalchemy import func, select
+from sqlalchemy import select
 
 from app.dependencies import CurrentUser, DbSession, SuperUser
 from app.models.user import User
