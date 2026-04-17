@@ -50,3 +50,6 @@ alembic/__pycache__/
 # Logs
 *.log
 logs/
+
+# Claude Code
+.claude/
